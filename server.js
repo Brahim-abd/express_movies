@@ -2,8 +2,9 @@ const express = require("express");
 const logger = require("morgan");
 const data = require("./movies.json");
 
+// express server
 const app = express();
-const port = 4000;
+const port = 4004;
 app.use(logger("dev"));
 app.use(express.json());
 
